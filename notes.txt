@@ -1,0 +1,1 @@
+to run this unpack it in your chrome extension tab while having developer mode on

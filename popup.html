@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>HelpMeOut</title>
+</head>
+<body style="padding: 20px;">
+    <div class="content">
+        <img src="images/Frame 232nav.png" alt="">
+        
+        <p style="margin-top: 20px; margin-bottom: 20px;">This extension helps you record and share help videos with ease.</p>
+
+        <img src="images/Frame 4619cuurent tab.png" alt="" style="margin-bottom: 30px; margin-top: 20px;">
+
+        <div style=" display: flex; flex-direction: column; gap: 24px; margin-bottom: 24px;">
+        <div class="camera">
+          <div style="display: flex; align-items: center; gap: 8px">
+            <img src="/images/video-camera.svg" alt="camera" />
+            <h4>Camera</h4>
+          </div>
+          <div>
+            <label class="switch" style="float: right;">
+              <input type="checkbox" checked="true"/>
+              <span class="slider round"></span>
+            </label>
+          </div>
+        </div>
+        <div class="camera">
+          <div style="display: flex; align-items: center; gap: 8px">
+            <img src="/images/microphone.svg" alt="microphone" />
+            <h4>Audio</h4>
+          </div>
+          <div>
+            <label class="switch" style="float: right;">
+              <input type="checkbox" checked="true"/>
+              <span class="slider round"></span>
+            </label>
+          </div>
+        </div>
+      </div>
+        
+
+        <div class="button_cont">
+            <button id="start_video">Start Recording</button>
+        </div>
+        <br>
+        <!--<div class="button_cont">
+            <button id="stop_video">STOP VIDEO</button>
+        </div>-->
+
+    </div>
+
+    <script src="/js/popup.js"></script>
+
+</body>
+</html>
